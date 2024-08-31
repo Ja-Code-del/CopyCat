@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a38f4e3-393c-4b90-a235-c029f6534aca" name="Changes" comment="" />
+    <list default="true" id="3a38f4e3-393c-4b90-a235-c029f6534aca" name="Changes" comment="first commit. Created the classes:&#10;- Crosser for the player&#10;- Cars for the cars&#10;- ScoreBoard to display score and much more">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crossy_road/crosser.py" beforeDir="false" afterPath="$PROJECT_DIR$/crossy_road/crosser.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ja-Code-del"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ja-Code-del/CopyCat",
+    "accountId": "64d15a15-a1cb-470c-ada0-f04b4c897d5d"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -23,7 +49,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "Merging main",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -42,6 +69,30 @@
       <option name="presentableId" value="Default" />
       <updated>1725105255029</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit. Created the classes:&#10;- Crosser for the player&#10;- Cars for the cars&#10;- ScoreBoard to display score and much more">
+      <option name="closed" value="true" />
+      <created>1725108006185</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725108006185</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit. Created the classes:&#10;- Crosser for the player&#10;- Cars for the cars&#10;- ScoreBoard to display score and much more" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit. Created the classes:&#10;- Crosser for the player&#10;- Cars for the cars&#10;- ScoreBoard to display score and much more" />
   </component>
 </project>

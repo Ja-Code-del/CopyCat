@@ -18,3 +18,4 @@ class ScoreBoard(Turtle):
     def score_view(self):
         self.write(f"Score: {self.score}", align=ALIGNMENT, font=FONT)
 
+

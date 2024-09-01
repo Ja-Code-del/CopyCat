@@ -1,10 +1,10 @@
 from turtle import Turtle, Screen
 
-INITIAL_POSITION = (-10, -220)
+INITIAL_POSITION = (-10, -190)
 RIGHT = 0
 LEFT = 180
 UP = 90
-MINIMAL_DISTANCE = 20
+MINIMAL_DISTANCE = 30
 
 screen = Screen()
 

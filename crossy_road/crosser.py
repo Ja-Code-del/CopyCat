@@ -1,6 +1,6 @@
 from turtle import Turtle, Screen
 
-INITIAL_POSITION = (0, -320)
+INITIAL_POSITION = (-10, -220)
 RIGHT = 0
 LEFT = 180
 UP = 90

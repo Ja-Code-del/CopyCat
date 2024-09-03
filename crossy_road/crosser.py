@@ -1,10 +1,11 @@
 from turtle import Turtle, Screen
 
-INITIAL_POSITION = (-10, -190)
+INITIAL_POSITION = (-10, -220)
 RIGHT = 0
 LEFT = 180
 UP = 90
 MINIMAL_DISTANCE = 30
+
 
 screen = Screen()
 
@@ -15,7 +16,7 @@ class Crosser(Turtle):
     def __init__(self):
         super().__init__()
         self.shape("square")
-        self.color("gray")
+        self.color("white")
         self.penup()
         self.goto(INITIAL_POSITION)
         self.forward(MINIMAL_DISTANCE)

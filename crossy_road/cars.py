@@ -23,6 +23,6 @@ class Cars(Turtle):
 
 
 
-    def run(self):
-        
+    #def run(self):
+
 

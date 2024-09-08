@@ -4,6 +4,7 @@ screen = Screen()
 PLAYER_INITIAL_COR = (280, 20)
 MACHINE_INITIAL_COR = (-280, 20)
 MOVE_DISTANCE = 20
+MACHINE_MOVE_DISTANCE = MOVE_DISTANCE / 4
 UP = 90
 DOWN = 270
 
@@ -29,6 +30,17 @@ class Paddle(Turtle):
     def go_down(self):
         self.backward(MOVE_DISTANCE)
 
+    def check_collision_with(self, ball):
+        if self.distance(ball) < 20:
+            return True
+        else:
+            return False
+
+    def collide_with(self, b):
+        if self.check_collision_with(ball=b):
+            b.setheading(b.angle + 75)
+            b.angle = self.heading() + 45
+
 
 class Machine(Paddle):
     def __init__(self):
@@ -39,11 +51,16 @@ class Machine(Paddle):
 
         if self.ycor() > 200:
             self.setheading(DOWN)
-            self.forward(MOVE_DISTANCE / 4)
+            self.forward(MACHINE_MOVE_DISTANCE)
             getting_down = True
         elif self.ycor() < -180:
             self.setheading(UP)
-            self.forward(MOVE_DISTANCE / 4)
+            self.forward(MACHINE_MOVE_DISTANCE)
             getting_up = True
         else:
-            self.forward(MOVE_DISTANCE / 4)
+            self.forward(MACHINE_MOVE_DISTANCE)
+
+    def collide_with(self, b):
+        if self.check_collision_with(ball=b):
+            b.setheading(b.angle + 75)
+            b.angle = self.heading() + 225

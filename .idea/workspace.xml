@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a38f4e3-393c-4b90-a235-c029f6534aca" name="Changes" comment="first commit. Created the classes:&#10;- Crosser for the player&#10;- Cars for the cars&#10;- ScoreBoard to display score and much more">
-      <change afterPath="$PROJECT_DIR$/Pong/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pong/ball.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pong/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pong/paddle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pong/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="3a38f4e3-393c-4b90-a235-c029f6534aca" name="Changes" comment="Updates :  the player paddle and the machine paddle are created and can move. Didn't work on ball.py and scoreboard.py yet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crossy_road/cars.py" beforeDir="false" afterPath="$PROJECT_DIR$/crossy_road/cars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/ball.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/paddle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/paddle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/scoreboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +49,17 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.crosser.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ball.executor": "Run",
+    "Python.crosser.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.scoreboard.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725110743206</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updates :  the player paddle and the machine paddle are created and can move. Didn't work on ball.py and scoreboard.py yet">
+      <option name="closed" value="true" />
+      <created>1725615700126</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725615700126</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit. Created the classes:&#10;- Crosser for the player&#10;- Cars for the cars&#10;- ScoreBoard to display score and much more" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit. Created the classes:&#10;- Crosser for the player&#10;- Cars for the cars&#10;- ScoreBoard to display score and much more" />
+    <MESSAGE value="Updates :  the player paddle and the machine paddle are created and can move. Didn't work on ball.py and scoreboard.py yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates :  the player paddle and the machine paddle are created and can move. Didn't work on ball.py and scoreboard.py yet" />
   </component>
 </project>
